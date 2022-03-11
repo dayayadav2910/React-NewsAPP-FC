@@ -18,11 +18,6 @@ const News = (props) => {
     useEffect(() => {
         updateNews()
     },[])
-
-    
-
-
-
     // const handlePreviousClick = async ()=>{
     //     setPage(page-1)
     //     updateNews()

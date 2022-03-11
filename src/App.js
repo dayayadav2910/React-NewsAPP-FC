@@ -18,7 +18,6 @@ const App = ()=>  {
         progress={100}
        
       />
-
           <Routes>
           <Route exact path="/" element={<News key="general" category="general"></News>}></Route>
           <Route exact path="/entertainment" element={<News key="entertainment" category="entertainment"></News>}></Route>
